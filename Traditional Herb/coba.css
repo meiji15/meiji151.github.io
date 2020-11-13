@@ -1,0 +1,65 @@
+.grid1 {
+    background-color: darkgreen;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+.gridA {
+    background-color: lightsalmon;
+    color: #000;
+}
+.menu {
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: right;
+    top: 0;
+    width: fit-content;
+    background: fixed;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color:rgb(255, 255, 255);
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.gridM {
+    background-color: rgb(255, 247, 245);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100%;
+    width: 100%;
+}
+.gridP {
+    padding: 20px;
+}
+h3 {
+    margin-right: 100px;
+}
+body {
+    margin: 0px;
+}
+.gridU {
+    background-color: rgb(2, 32, 2);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: rgb(249, 147, 88);
+}
+.bagian {
+    list-style-type: none;
+}
+button {
+    padding: 13px 156px;
+    color: rgb(2, 32, 2);
+    background-color: rgb(240, 149, 88);
+    margin-left: 142px;
+}
+.input-data {
+    background-color: rgb(2, 32, 2);
+    border: 1px solid rgb(240, 149, 88);
+    color: white;
+}

@@ -1,0 +1,69 @@
+.grid1 {
+    background-color: darkgreen;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+.gridA {
+    background-color: lightsalmon;
+    color: #000;
+}
+.menu {
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: right;
+    top: 0;
+    width: fit-content;
+    background: fixed;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color:rgb(255, 255, 255);
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+body {
+    background-color: rgb(255, 247, 245);
+    font-style: inherit;
+    color: lightsalmon;
+    margin: 0px;
+}
+.gridU {
+    background-color: rgb(2, 32, 2);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: rgb(249, 147, 88);
+}
+table {
+    background-color: rgb(2, 32, 2);
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+button {
+    padding: 13px 156px;
+    color: rgb(2, 32, 2);
+    background-color: rgb(240, 149, 88);
+    margin-left: 142px;
+}
+.input-data {
+    background-color: rgb(2, 32, 2);
+    border: 1px solid rgb(240, 149, 88);
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+.olshop {
+    text-align: center;
+}
+.bagian {
+    list-style-type: none;
+}
